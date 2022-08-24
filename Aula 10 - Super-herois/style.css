@@ -17,7 +17,7 @@ body{
     width: 100%;
 }
 
-header{ 
+.text{ 
     position: fixed;
     z-index: 2;
     background-color: #00669F;
@@ -29,8 +29,8 @@ header{
 main{ 
     display:flex; 
     justify-content: center;
-    margin-top: 85px;
-    margin-bottom: 60px;
+    padding-top: 85px;
+    padding-bottom: 60px;
 }
 
 .card{ 
