@@ -11,15 +11,19 @@ body{
     width: 100%;
 }
 
+header{ 
+    position: sticky;
+    top:0; 
+    z-index: 1;
+}
+
 .barDiscount{ 
     background-color:#1CD1B0;
     padding: 10px;
     width: 100%;
 }
 
-.text{ 
-    position: fixed;
-    z-index: 2;
+.text{  
     background-color: #00669F;
     padding: 15px;
     width: 100%;
