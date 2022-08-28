@@ -124,6 +124,7 @@ main .products {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FFFF;
 }
 
 main .text-products{ 
@@ -149,12 +150,117 @@ main .option-products {
     height: 312px;
     display: flex;
     justify-content: space-around;
-    background-color: #c2a11c;
+    text-align: center;
+    background-color: #FBFAF6;
+    color: #3C2313 ;
+    padding-top: 10px;
+
+}
+
+main .option-products .price { 
+    color: #F0A83E;
+}
+
+.contact { 
+    width: 100%;
+    height: 264px;
+    left: 343px;
+    top: 1110px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact h4 { 
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C2313;
+}
+
+.contact .contact-infos input { 
+    width: 405px; 
+    height: 42px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: white;
+    padding-left: 10px;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 10px;
+    border-style: none;
+}
+
+.contact .contact-enviar input { 
+    margin-top: 20px;
+}
+
+.contact .contact-enviar .limpar { 
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    background-color: #8A8787;
+    border-style: none;
+    color:#FFFF;
+}
+
+.contact .contact-enviar .enviar { 
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    background-color: #F0A83E;
+    border-style: none;
+    color:#FFFF;
+}
+
+footer .inscreva { 
+    width: 100%;
+    height: 70px; 
+    background-color: #F0A83E;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
+footer .inscreva .recado { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+footer .inscreva .recado img { 
+    padding-right: 10px;
+}
 
+footer .inscreva .recado h5 { 
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFF;
+}
+
+footer .inscreva .preencher { 
+    margin-right: 60px;
+}
+
+footer .inscreva .preencher .email { 
+      width: 320px;
+      height: 45px;
+      border-radius: 15px;
+      background-color: #FFFF;
+      border-style: none;
+      padding-left: 10px;
+}
+
+footer .inscreva .preencher .enviar { 
+    width: 81px; 
+    height: 40px;
+    background-color: #3C2313;
+    color: #FFFF;
+    border-style: none;
+    border-radius: 15px;
+}
 
 
 
