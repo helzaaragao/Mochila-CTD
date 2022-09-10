@@ -45,7 +45,6 @@ header {
     background-color: #F0A83E;
     width: 100vw; 
     height: 62px; 
-    top: 20px;
     padding: 40px;
 }
 
@@ -76,6 +75,10 @@ header nav a {
       padding-left: 15px;
 }
 
+main { 
+    width: 100vw;
+}
+
 main .banner { 
     width: 100vw; 
     height:490px;
@@ -84,18 +87,23 @@ main .banner {
     background-repeat: no-repeat;
     display: flex; 
     align-items: center;
-    flex-direction: column;
-    padding-left: 850px;
-    padding-top: 190px;
+    justify-content: flex-end;
     line-height: 50px;
     margin-bottom: 20px;
 }
 
-main .banner h2 { 
-    width: 400px;
+main .banner div{
+    width: 365px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+
+main .banner div h2 { 
+    width: 100%;
     height: 50px;
-    top: 237px; 
-    left: 648px;
     border-radius: 5px;
     background-color: #FFFF;
     text-align: center;
@@ -119,8 +127,6 @@ main .banner button{
 main .products { 
     width: 100%; 
     height: 522px;
-    top: 510px; 
-    left: 95px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,10 +168,8 @@ main .option-products .price {
 }
 
 .contact { 
-    width: 100%;
+    width: 100vw;
     height: 264px;
-    left: 343px;
-    top: 1110px;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -214,6 +218,10 @@ main .option-products .price {
     color:#FFFF;
 }
 
+footer { 
+    width: 100vw;
+}
+
 footer .inscreva { 
     width: 100%;
     height: 70px; 
@@ -242,6 +250,8 @@ footer .inscreva .recado h5 {
 
 footer .inscreva .preencher { 
     margin-right: 60px;
+
+
 }
 
 footer .inscreva .preencher .email { 
@@ -321,7 +331,7 @@ footer .end-logo span {
 }
 
 footer .end-barra { 
-     width: 100%;
+     width: 100vw;
      height: 20px;
      background-color:#000000;
      color: #FFFF;
@@ -345,20 +355,89 @@ footer .end-barra {
 
     header{ 
         width: 100vw;
-        background-image: url(./img/);
-    }
-
-    main { 
-        width: 100vw;
-    }
-
-    main .banner { 
-        width: 100vw;
+        padding: 15px;
     }
 
     header nav { 
         display: none; 
     }
+
+    main .banner { 
+       padding: 0;
+       margin: 0;
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+       background-size: auto;
+    }
+
+    main .banner h2 { 
+        width: 320px;
+    }
+
+    main .products { 
+        height: 100%;
+    }
+
+    main .text-products { 
+        width: 100vw;
+        height: 300px;
+        padding: 25px;
+    } 
+
+    main .option-products { 
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+
+    main .contact { 
+        width: 80vw;
+    }
+
+    .contact .contact-infos { 
+        width: 100%;
+    }
+
+    .contact .contact-infos input{ 
+        width: 100%;
+    }
+
+    footer .inscreva{ 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    footer .inscreva .recado h5 { 
+        font-size: 1em;
+    }
+
+    footer .inscreva .preencher { 
+        width: 100vw;
+        margin: 0;
+    }
+
+    footer .inscreva .preencher .email { 
+        width: 50%;
+    }
+
+    footer .info-logo {
+        display: flex; 
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+   
+    
+
+    
+
+   
+
 
     
 
