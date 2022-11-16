@@ -7,10 +7,7 @@ Opções de preparos pré-definidos:
       2 - Macarrão 
       3 - Carne 
       4 - Feijão 
-      5 - Brigadeiro 
-`); 
-
-
+      5 - Brigadeiro`); 
 
  const pedido = readlineSync.question(`O que voce deseja? Coloque o numero 
  `);
@@ -35,7 +32,7 @@ function workMicro (time, optionTime){
             console.log ("Tempo insuficiente"); 
       }
       else { 
-            console.log ("Prato perfeito!")
+            console.log ("Prato perfeito para comer!")
       }
 
 } 
