@@ -48,3 +48,38 @@ function calculoImc(nome,idade,altura,peso){
 
 calculoImc("Carlos de Souza", 28, 1.76, 80.1);
 calculoImc("Aline Ferreira", 45, 1.80, 80.1);
+
+function soma(v1,v2){ 
+        return v1 + v2; 
+}
+
+
+
+function subtrai(v1,v2){ 
+        return v1 - v2; 
+}
+
+
+
+
+function multiplica(v1,v2){ 
+        return v1 * v2; 
+}
+
+
+
+function divide(v1,v2){ 
+        return v1 / v2; 
+}
+
+console.log("Soma -->" + soma(40,2));
+
+console.log("Substrai -->" + substrai(40,2));
+
+console.log("Multiplicar -->" + multiplica(40,2));
+
+console.log("Divide -->" + divide(40,2));
+
+
+
+
