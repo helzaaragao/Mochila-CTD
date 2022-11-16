@@ -72,7 +72,7 @@ function microondas( opcao, time){
 
 microondas( pedido, tempoPedido);
 
-
+//microondas(2,10);
 
 
 
