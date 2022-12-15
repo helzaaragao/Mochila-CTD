@@ -53,9 +53,10 @@ let curso = {
 
 curso.adicionarAlunos('Gabriel Jesus de Maria', 2, [8, 7, 7, 8]);
 curso.adicionarAlunos('Afra Taiza Valente', 0, [10, 9, 8, 7]);
-curso.adicionarAlunos('Sheila dos Santos', 5, [10, 10, 10, 10]);
+curso.adicionarAlunos('Sheila dos Santos', 5, [10, 10, 10, 10]); 
 
 
 console.log(curso.listaAprovacao()); //true, true, false --> Gabriel e Afra foi aprovado, mas Sheila não. 
 console.log(curso.listaAlunos); //todos que estão presentes que eu adicionei agora. 
-// console.log(curso.seAprovou()); --> tem que verificar
+console.log(curso.seAprovou(cadastro3)); 
+console.log(curso.seAprovou(cadastro)); 
